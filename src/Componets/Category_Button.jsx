@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Buttons_Category = ({ label, onClick, type = "button",  }) => {
+const Category_Button = ({ label, onClick, type = "button",  }) => {
     return (
         <button type={type} className="bg-background-secondary text-primary-700 px-4 py-2 hover:bg-accent hover:text-white rounded" onClick={onClick}>
         <svg
@@ -26,6 +26,6 @@ const Buttons_Category = ({ label, onClick, type = "button",  }) => {
     );
 };
 
-export default Buttons_Category;
+export default Category_Button;
 
 

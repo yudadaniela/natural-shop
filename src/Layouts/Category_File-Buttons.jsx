@@ -1,5 +1,5 @@
 import React from "react";
-import Buttons_Category from "../Componets/Buttons_Category";
+import Category_Button from "../Componets/Category_Button";
 
 const Category_File_Buttons = () => (
  <div>
