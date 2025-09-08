@@ -3,7 +3,7 @@ import Category_Button from "../Componets/Category_Button";
 
 const Category_File_Buttons = () => (
  <div>
-    <Buttons_Category />
+    <Category_Button />
  </div>
 );
 
