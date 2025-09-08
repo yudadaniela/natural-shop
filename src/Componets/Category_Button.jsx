@@ -8,7 +8,7 @@ const Category_Button = ({ label, onClick, type = "button", image }) => {
       onClick={onClick}
     >
       {image}
-      {label}
+      <span>{label}</span>
     </button>
   );
 };
