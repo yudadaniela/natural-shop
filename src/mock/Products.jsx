@@ -1,11 +1,11 @@
-[
+export const products=     [
   {
     "id": 1,
     "name": "Crema Facial Herbal",
     "category": "Skincare",
     "price": 25,
     "description": "Crema hidratante natural con extracto de aloe vera y té verde.",
-    "image": "/images/products/crema-facial.png"
+    "image": "/src/assets/images/gotero.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "category": "Skincare",
     "price": 30,
     "description": "Sérum concentrado con vitamina C y extracto de granada para revitalizar la piel.",
-    "image": "/images/products/serum-antioxidante.png"
+    "image": "/src/assets/images/gotero.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "category": "Skincare",
     "price": 18,
     "description": "Mascarilla purificante con arcilla verde y aceite de árbol de té.",
-    "image": "/images/products/mascarilla-arcilla.png"
+    "image": "/src/assets/images/gotero.png"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "category": "Aseo Personal",
     "price": 8,
     "description": "Jabón artesanal con avena y aceites esenciales, ideal para piel sensible.",
-    "image": "/images/products/jabon-avena.png"
+    "image": "/src/assets/images/jabon.png"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "category": "Aseo Personal",
     "price": 9,
     "description": "Jabón purificante con carbón activado, elimina impurezas y toxinas.",
-    "image": "/images/products/jabon-carbon.png"
+    "image": "/src/assets/images/jabon.png"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "category": "Aseo Personal",
     "price": 12,
     "description": "Desodorante ecológico con aceite de coco y bicarbonato de sodio.",
-    "image": "/images/products/desodorante-natural.png"
+    "image": "/src/assets/images/jabon.png"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "category": "Aromaterapia",
     "price": 12,
     "description": "Aceite esencial puro de lavanda, relajante y calmante.",
-    "image": "/images/products/aceite-lavanda.png"
+    "image": "/src/assets/images/gotero.png"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "category": "Aromaterapia",
     "price": 11,
     "description": "Aceite esencial de eucalipto para despejar vías respiratorias.",
-    "image": "/images/products/aceite-eucalipto.png"
+    "image": "/src/assets/images/gotero.png"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "category": "Aromaterapia",
     "price": 35,
     "description": "Difusor de aceites esenciales en bambú natural para un ambiente relajante.",
-    "image": "/images/products/difusor-bambu.png"
+    "image": "/src/assets/images/gotero.png"
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "category": "Suplementos",
     "price": 18,
     "description": "Suplemento con vitaminas y minerales esenciales para energía diaria.",
-    "image": "/images/products/multivitaminico.png"
+    "image": "/src/assets/images/gotero.png"
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "category": "Suplementos",
     "price": 22,
     "description": "Cápsulas de Omega 3 derivado de algas, ideal para la salud cardiovascular.",
-    "image": "/images/products/omega3.png"
+    "image": "/src/assets/images/gotero.png"
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "category": "Suplementos",
     "price": 28,
     "description": "Suplemento de colágeno para fortalecer piel, uñas y cabello.",
-    "image": "/images/products/colageno.png"
+    "image": "/src/assets/images/gotero.png"
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "category": "Bisutería",
     "price": 15,
     "description": "Pulsera artesanal con piedras naturales de cuarzo rosa.",
-    "image": "/images/products/pulsera-cuarzo.png"
+    "image": "/src/assets/images/gotero.png"
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "category": "Bisutería",
     "price": 20,
     "description": "Collar con piedra amatista, ideal para protección y armonía.",
-    "image": "/images/products/collar-amatista.png"
+    "image": "/src/assets/images/gotero.png"
   },
   {
     "id": 15,
@@ -117,6 +117,6 @@
     "category": "Bisutería",
     "price": 18,
     "description": "Aretes de piedra jade natural, símbolo de equilibrio y paz.",
-    "image": "/images/products/aretes-jade.png"
+    "image": "/src/assets/images/gotero.png"
   }
 ]

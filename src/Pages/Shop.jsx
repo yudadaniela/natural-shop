@@ -1,17 +1,30 @@
-import React from 'react';
+import React from "react";
+import Header from "../Componets/header";
+import Footer from "../Componets/Footer";
+import { products } from "../mock/Products";
 
 function Shop() {
- 
-
   return (
-   <div className="min-h-screen p-6">
-      <h1 className="font-body text-4xl text-primary mb-4">Hola Mundo</h1>
-      <p className="text-base text-text">Texto del párrafo</p>
-      <button className="bg-accent text-white px-4 py-2 rounded">
-        Botón de shop
-      </button>
-    </div> 
-  )
+    <div class="flex flex-col min-h-screen ">
+      <Header />
+      <main class="flex-grow  bg-[color:var(--color-background)]">
+        <div className="p-4 m-4 srounded grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-items-center">
+          {products.map((product) => (
+            <div key={product.id}>
+              <img
+                src={product.image}
+                alt={product.name}
+                className="w-[300px] h-[300px] object-cover "
+              />
+              <h2>{product.name}</h2>
+            </div>
+          ))}
+        </div>
+      </main>
+
+      <Footer />
+    </div>
+  );
 }
 
-export default Shop
+export default Shop;
