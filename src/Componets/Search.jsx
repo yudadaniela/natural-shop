@@ -8,7 +8,7 @@ const Search = () => {
                 placeholder="Buscar..."
                 aria-label="Buscar"
             />
-            <button>Buscar</button>
+            <button><img src="   " alt="" /></button>
         </div>
     );
 };
